@@ -1,0 +1,151 @@
+.navheader {
+  display: flex;
+  align-items: center;
+  column-gap: 150px;
+ }
+ .navbar-nav {
+   display: flex;
+   justify-content: space-around;
+ }
+
+
+.first-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  height: 300px;
+  width: 100%;
+  text-align: center;
+  h1 {
+    font-weight: 900;
+  }
+}
+.sum {
+  width: 400px;
+}
+.h4 {
+  font-weight: bolder;
+}
+span {
+  color: blue;
+}
+.blackbutton {
+  border-radius: 20px;
+  padding: 10px 30px;
+}
+.second-section {
+  background-image: url("calendlyimages/backgroundimage3.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.logos {
+  display: flex;
+  justify-content: space-evenly !important;
+  width: 80%;
+  align-items: center;
+}
+.third-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flexrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 50px;
+  
+}
+.card {
+  border-radius: 20px;
+  padding: 27px;
+}
+.card-body {
+  padding: 0;
+}
+.footercol {
+  display: flex;
+  flex-direction: column;
+}
+.mainbutton {
+  border-radius: 20px;
+}
+.divbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+.form-select {
+  font-weight: bold;
+}
+footer {
+  margin-bottom: 50px;
+  a, p {
+    text-decoration: none;
+    color: gray;
+  }
+  h1 {
+    font-weight: bolder;
+    color: rgb(14, 14, 61);
+  }
+  h2 {
+    color: blue;
+    font-weight: bolder;
+  }
+  .foot {
+    row-gap: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navheader {
+    column-gap: 100px;
+  }
+  .first-section {
+    width: 100vw;
+  }
+  .second-section {
+    .sum {
+      text-align: center;
+    }
+    .logos {
+      max-width: 100vw;
+      column-gap: 20px;
+      img {
+        width: 50px;
+        height: 30px;
+      }
+    }
+  }
+  .footerrow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    margin-left: 50px;
+  }
+  .footercol {
+    width: 100vw;
+    padding: auto;
+    margin: auto;
+  }
+  .flexrow {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+  }
+}

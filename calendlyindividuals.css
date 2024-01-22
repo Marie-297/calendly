@@ -1,0 +1,131 @@
+.navheader {
+  display: flex;
+  align-items: center;
+  column-gap: 150px;
+ }
+ .navbar-nav {
+   display: flex;
+   justify-content: space-around;
+ }
+ .firstrow {
+  margin-top: 150px;
+  margin-bottom: 50px;
+ }
+ .secondrow, .thirdrow {
+  margin-bottom: 50px;
+ }
+main {
+  .btn {
+    padding: 10px 20px;
+    border-radius: 20px;
+  }
+  .small {
+    font-size: 10px;
+  }
+  .h1 {
+    font-weight: 900;
+    font-size: 60px;
+  }
+  .textcol {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .h2 {
+    font-weight: bolder;
+    margin-bottom: 30px;
+  }
+}
+.contain {
+  background-image: url("calendlyimages/backgroundimage2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+.fullrow {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  .h1 {
+    font-weight: 900;
+    color: white;
+  }
+}
+.btn-light {
+  width: 180px;
+  border-radius: 20px;
+}
+
+.footercol {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  a, p {
+    text-decoration: none;
+    color: gray;
+  }
+  .h1 {
+    font-weight: 900;
+    color: rgb(14, 14, 61);
+  }
+  .h2 {
+    color: blue;
+    font-weight: 900;
+  }
+  .foot {
+    row-gap: 15px;
+  }
+  .h3 {
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navheader {
+    column-gap: 100px;
+  }
+  .textcol {
+    width: 100vw;
+    margin-bottom: 10px;
+    padding: 0;
+    .h1 {
+      font-size: 30px;
+    }
+  }
+  .secondrow {
+    display: flexbox;
+    flex-direction: column-reverse;
+  }
+  .thirdrow {
+    .h2 {
+      font-size: 20px;
+    }
+  }
+  .imgcol {
+    width: 100vw;
+  }
+  .fullrow {
+    justify-content: center;
+    align-items: center;
+  }
+  .footerrow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+  }
+  .footercol {
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+  }
+}

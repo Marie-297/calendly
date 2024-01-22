@@ -1,0 +1,163 @@
+header {
+  margin-bottom: 100px;
+}
+.navheader {
+  display: flex;
+  align-items: center;
+  column-gap: 150px;
+ }
+ .navbar-nav {
+   display: flex;
+   justify-content: space-around;
+ }
+ .firstrow {
+  margin-top: 100px;
+ }
+main {
+  .butt {
+    padding: 10px 20px;
+    border-radius: 20px;
+  }
+  .twobtn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .small {
+    font-size: 10px;
+    color: blue !important;
+  }
+  .h1 {
+    font-weight: 900;
+    color: blue;
+  }
+  .textcol {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  p {
+    color: gray;
+  }
+  .h3, h5 {
+    color: rgb(3, 3, 33);
+    font-weight: bolder;
+  }
+}
+.mid-section {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  .h1 {
+    color: rgb(3, 3, 33) !important;
+    font-weight: bolder !important;
+  }
+}
+.contain {
+  height: 500px;
+}
+.fullrow {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 100px;
+  .h1 {
+    font-weight: 900;
+  }
+}
+.lastrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+  margin-bottom: 80px;
+  a {
+    text-decoration: none;
+    font-weight: bolder;
+  }
+}
+.btn-light {
+  width: 180px;
+  border-radius: 20px;
+}
+
+.footercol {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  margin-bottom: 50px;
+  a, p {
+    text-decoration: none;
+    color: gray;
+  }
+  .h1 {
+    font-weight: 900;
+    color: rgb(14, 14, 61);
+  }
+  .h2 {
+    color: blue;
+    font-weight: 900;
+  }
+  .foot {
+    row-gap: 15px;
+  }
+  .h3 {
+    font-weight: 600;
+    color: rgb(14, 14, 61);
+  }
+}
+@media screen and (max-width: 768px) {
+  .navheader {
+    column-gap: 100px;
+  }
+  .textcol {
+    width: 100vw;
+    margin-bottom: 20px;
+  }
+  .firstrow {
+    img {
+      max-width: 100%;
+      display: block;
+      margin: 0 auto;
+      height: auto;
+    }
+  }
+  .secondrow {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    img {
+      max-width: 100%;
+      display: block;
+      margin: 0 auto;
+      height: auto;
+    }
+  }
+  .lastrow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+    row-gap: 20px;
+    column-gap: 0;
+    margin-bottom: 50px;
+    .col {
+      .card {
+        width: 18rem;
+      }
+    }
+  }
+  .footerrow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+  }
+  .footercol {
+    width: 100vw;
+    padding: auto;
+    margin: auto;
+  }
+}
